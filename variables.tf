@@ -43,3 +43,9 @@ variable "public_subnet_cidr" {
 variable "private_subnet_cidr" {
   type = string
 }
+
+
+variable "ssh_my_ip" {
+  type        = string
+  description = "IP allowed to SSH into the bastion"
+}
